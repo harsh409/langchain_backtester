@@ -1,0 +1,6 @@
+langchain>=1.0            # the framework (agents, tools, prompts)
+langchain-openai>=1.0     # lets LangChain talk to the freeLLMAPI (OpenAI-compatible) gateway
+langgraph                 # create_agent runs on this under the hood
+pydantic>=2               # describes the structured output shapes
+ddgs                      # DuckDuckGo web search (to learn unknown strategies)
+pandas                    # the backtest math
